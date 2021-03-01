@@ -25,6 +25,7 @@
 		C3DC800D1900D3060080FF06 /* BEMAnalogClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC80041900D3060080FF06 /* BEMAnalogClockView.m */; };
 		C3DC80131900D3110080FF06 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C3DC80121900D3110080FF06 /* LICENSE */; };
 		C3DC80151900D3580080FF06 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C3DC80141900D3580080FF06 /* README.md */; };
+		DC8CCA2925ECDB57006E7782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8CCA2825ECDB57006E7782 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		C3DC80041900D3060080FF06 /* BEMAnalogClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BEMAnalogClockView.m; path = ../Classes/BEMAnalogClockView.m; sourceTree = "<group>"; };
 		C3DC80121900D3110080FF06 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C3DC80141900D3580080FF06 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DC8CCA2825ECDB57006E7782 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			children = (
 				C34360A718BAEB900056E6CE /* AppDelegate.h */,
 				C34360A818BAEB900056E6CE /* AppDelegate.m */,
+				DC8CCA2825ECDB57006E7782 /* LaunchScreen.storyboard */,
 				C34360AA18BAEB900056E6CE /* Main.storyboard */,
 				C34360AD18BAEB900056E6CE /* ViewController.h */,
 				C34360AE18BAEB900056E6CE /* ViewController.m */,
@@ -258,6 +261,7 @@
 				C34360B118BAEB900056E6CE /* Images.xcassets in Resources */,
 				C34360A318BAEB8F0056E6CE /* InfoPlist.strings in Resources */,
 				C3DC80151900D3580080FF06 /* README.md in Resources */,
+				DC8CCA2925ECDB57006E7782 /* LaunchScreen.storyboard in Resources */,
 				C3DC80131900D3110080FF06 /* LICENSE in Resources */,
 				C34360AC18BAEB900056E6CE /* Main.storyboard in Resources */,
 			);
@@ -437,7 +441,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -454,7 +457,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
