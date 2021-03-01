@@ -5,8 +5,8 @@
     "tag": "v1.6"
   },
   "platforms": {
-    "ios": "6.0",
-    "tvos": "9.0"
+    "ios": "10.0",
+    "tvos": "10.0"
   },
   "source_files": [
     "Classes",
