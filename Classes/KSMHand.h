@@ -17,12 +17,14 @@
     #import <CoreGraphics/CoreGraphics.h>
 #endif
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface KSMHand : UIView
 
 #pragma mark Public Properties
 
 /// The color of the the hand instance
-@property (strong, nonatomic) UIColor *color;
+@property (strong, nonatomic, nullable) UIColor *color;
 
 /// The widgth of the hand instance
 @property (nonatomic) CGFloat width;
@@ -42,3 +44,5 @@
 - (void)setDegree:(float)degree animated:(BOOL)animated;
 
 @end
+
+NS_ASSUME_NONNULL_END

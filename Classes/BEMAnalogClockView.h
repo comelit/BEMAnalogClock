@@ -19,6 +19,8 @@
 
 #import "KSMHand.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @protocol BEMAnalogClockDelegate;
 
 IB_DESIGNABLE
@@ -263,3 +265,5 @@ IB_DESIGNABLE
 - (void)clockDidFinishLoading:(BEMAnalogClockView *)clock;
 
 @end
+
+NS_ASSUME_NONNULL_END
