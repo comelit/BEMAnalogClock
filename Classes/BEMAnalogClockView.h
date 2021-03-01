@@ -33,7 +33,7 @@ IB_DESIGNABLE
 //------------------------------------------------------------------------------------//
 
 /// BEMAnalogClockView delegate object is essential to the clock. The delegate provides the clock with data and various parameters. The delegate can be set from the interface or from code.
-@property (nonatomic, assign) IBOutlet id <BEMAnalogClockDelegate> delegate;
+@property (nonatomic, assign, nullable) IBOutlet id <BEMAnalogClockDelegate> delegate;
 
 
 //------------------------------------------------------------------------------------//
